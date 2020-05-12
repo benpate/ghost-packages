@@ -13,5 +13,7 @@
 	},
 	"notes": [
 		"Use NPM package.json format: https://docs.npmjs.com/files/package.json"
-	]
+	],
+	"templates": ["article", "second-one", "third-one"],
+	"blocklists": "hyperbolic-007"
 }
