@@ -1,13 +1,13 @@
 {
-    "$id": "https://qri.io/schema/",
-    "$comment" : "sample comment",
-    "title": "Person",
+    "$id": "https://pate.org/exampe/article/",
+    "$comment" : "I had to copy this one to make it work right.",
+    "title": "Article",
     "type": "object",
     "properties": {
-        "firstName": {
+        "title": {
             "type": "string"
         },
-        "lastName": {
+        "content": {
             "type": "string"
         },
         "age": {
@@ -20,5 +20,5 @@
           "items" : { "title" : "REFERENCE", "$ref" : "#" }
         }
     },
-    "required": ["firstName", "lastName"]
+    "required": ["title", "content"]
   }
