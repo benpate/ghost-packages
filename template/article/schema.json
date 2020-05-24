@@ -1,1 +1,21 @@
-"This will be where a JSON-Schema description of the data object is stored."
+{
+	"$id": "https://pate.org/example/article",
+	"$comment": "This is the first JSON-schema document I've ever made.  Please be kind",
+	"title": "Article",
+	"type": "object",
+	"properties": {
+		"title": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"icon": {
+			"type": "string"
+		},
+		"banner-image": {
+			"type": "string"
+		},
+		"required": ["title", "content", "icon", "banner-image"]
+	}
+}
