@@ -1,0 +1,15 @@
+{
+	"first": {
+		"label": "New",
+		"description": "This is my first state.  There are many like it, but this one is mine.",
+		"transitions": [{
+			"label": "Create",
+			"roles": ["ADMIN", "USER"],
+			"form": "do.json",
+			"guard": ""
+		}]
+
+	},
+	"second": {},
+	"third": {}
+}

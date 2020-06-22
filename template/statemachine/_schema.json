@@ -1,0 +1,24 @@
+{
+    "$id": "https://pate.org/exampe/article/",
+    "$comment" : "I had to copy this one to make it work right.",
+    "title": "Article",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "content": {
+            "type": "string"
+        },
+        "age": {
+            "description": "Age in years",
+            "type": "integer",
+            "minimum": 0
+        },
+        "friends": {
+          "type" : "array",
+          "items" : { "title" : "REFERENCE", "$ref" : "#" }
+        }
+    },
+    "required": ["title", "content"]
+  }

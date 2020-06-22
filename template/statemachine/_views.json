@@ -1,0 +1,6 @@
+{
+	"create": {
+		"template": "create.html",
+		"roles": ["ADMIN", "USER"]
+	}
+}

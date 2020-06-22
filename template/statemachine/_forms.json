@@ -1,0 +1,7 @@
+{
+	"NEW": {
+		"template": "new.json",
+		"handler": "new.js",
+		"??": "??"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"ADMIN": {
+		"label": "Admin",
+		"description":"Administrator has access to ALL of the system."
+	},
+	"USER": {
+		"label": "User",
+		"description": "User has access to SOME of the system."
+	},
+	"EXCLUDED": {
+		"label": "Excluded",
+		"description": "Excluded has access to NONE of the system."
+	}
+}
